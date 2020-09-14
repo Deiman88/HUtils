@@ -1,0 +1,9 @@
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\bin\Debug\netcoreapp3.1\HUtils.deps.json
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\bin\Debug\netcoreapp3.1\HUtils.dll
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\bin\Debug\netcoreapp3.1\HUtils.pdb
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.csprojAssemblyReference.cache
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.AssemblyInfoInputs.cache
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.AssemblyInfo.cs
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.dll
+C:\Users\Dmitry\RiderProjects\HUtils\HUtils\obj\Debug\netcoreapp3.1\HUtils.pdb
