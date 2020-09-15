@@ -44,7 +44,8 @@ namespace HUtils
 
                         model.BasicAck(ea.DeliveryTag, false);
 
-                        Console.WriteLine(comment + " [x] Received {0}", message);
+                        //Console.WriteLine(comment + " [x] Received {0}", message);
+                        Console.WriteLine(comment + " [x] Received");
                         Console.WriteLine(comment + " Delivery: " + ea.DeliveryTag);
                         await Task.Yield();
                     }
