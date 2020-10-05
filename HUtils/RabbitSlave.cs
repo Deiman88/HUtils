@@ -49,7 +49,6 @@ namespace HUtils
                         Console.WriteLine(comment + " Delivery: " + ea.DeliveryTag);
                         await Task.Yield();
                     }
-
                     if (ea == null)
                     {
                         Console.WriteLine(comment + " [x] No Message ");
