@@ -8,7 +8,7 @@ namespace HUtils
 {
     public class RabbitMaster
     {
-        public static void Send(string queue, string args, string? comm)
+        public static void Send(string queue, string args)
         {
             if (args != null)
             {
@@ -31,7 +31,6 @@ namespace HUtils
                         autoDelete: false,
                         arguments: null);
                     
-                    var logg = "to queue "+queue+" "+comm;
                     var body = Encoding.UTF8.GetBytes(args.ToString());
 
                     var properties = channel.CreateBasicProperties();
@@ -41,8 +40,6 @@ namespace HUtils
                         routingKey: queue,
                         basicProperties: properties,
                         body: body);
-
-                    //Console.WriteLine(" [x] Sent {0}", logg);
                 }
             }
         }
