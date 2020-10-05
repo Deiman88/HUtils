@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uZ2Yw1sfgEHIK4Ha9Vgda+2trMzaFM+cEjbiXTC38y9PaAlpWxSQLCTppoPnegDw6TXt4ry/XTeYRBvZ9Ifc2w==",
+  "dgSpecHash": "cesluii76VzTqZwUdsuXJX+qEM5pTDlblJsZX6h/F4GDW7B9YqERrNXUFG7vSHTAuWs4q744n+sYMbaPZbQD9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitry\\RiderProjects\\MailService\\HUtils\\HUtils\\HUtils.csproj",
+  "projectFilePath": "C:\\Users\\Dmitry\\RiderProjects\\HUtils\\HUtils\\HUtils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

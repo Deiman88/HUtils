@@ -7621,11 +7621,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitry\\RiderProjects\\MailService\\HUtils\\HUtils\\HUtils.csproj",
+      "projectUniqueName": "C:\\Users\\Dmitry\\RiderProjects\\HUtils\\HUtils\\HUtils.csproj",
       "projectName": "HUtils",
-      "projectPath": "C:\\Users\\Dmitry\\RiderProjects\\MailService\\HUtils\\HUtils\\HUtils.csproj",
+      "projectPath": "C:\\Users\\Dmitry\\RiderProjects\\HUtils\\HUtils\\HUtils.csproj",
       "packagesPath": "C:\\Users\\Dmitry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitry\\RiderProjects\\MailService\\HUtils\\HUtils\\obj\\",
+      "outputPath": "C:\\Users\\Dmitry\\RiderProjects\\HUtils\\HUtils\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dmitry\\AppData\\Roaming\\NuGet\\NuGet.Config",
