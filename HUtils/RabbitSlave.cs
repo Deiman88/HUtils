@@ -38,6 +38,8 @@ namespace HUtils
                     string comment = DateTime.Now.ToString(CultureInfo.InvariantCulture);
                     if (ea != null)
                     {
+                        Task.Run(async () =>
+                        {
                         var body = ea.Body.ToArray();
                         var message = Encoding.UTF8.GetString(body);
                         await Task.Run(() => task(message));
@@ -48,6 +50,7 @@ namespace HUtils
                         Console.WriteLine(comment + " [x] Received");
                         Console.WriteLine(comment + " Delivery: " + ea.DeliveryTag);
                         await Task.Yield();
+                            });
                     }
                     if (ea == null)
                     {
