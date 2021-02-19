@@ -40,17 +40,17 @@ namespace HUtils
                     {
                         Task.Run(async () =>
                         {
-                        var body = ea.Body.ToArray();
-                        var message = Encoding.UTF8.GetString(body);
-                        await Task.Run(() => task(message));
+                            var body = ea.Body.ToArray();
+                            var message = Encoding.UTF8.GetString(body);
+                            await Task.Run(() => task(message));
 
-                        model.BasicAck(ea.DeliveryTag, false);
+                            model.BasicAck(ea.DeliveryTag, false);
 
-                        //Console.WriteLine(comment + " [x] Received {0}", message);
-                        Console.WriteLine(comment + " [x] Received");
-                        Console.WriteLine(comment + " Delivery: " + ea.DeliveryTag);
-                        await Task.Yield();
-                            });
+                            //Console.WriteLine(comment + " [x] Received {0}", message);
+                            Console.WriteLine(comment + " [x] Received");
+                            Console.WriteLine(comment + " Delivery: " + ea.DeliveryTag);
+                            await Task.Yield();
+                        });
                     }
                     if (ea == null)
                     {
